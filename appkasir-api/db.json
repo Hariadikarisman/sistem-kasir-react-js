@@ -1,0 +1,429 @@
+{
+  "kategori": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "produk": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Nasi Goreng",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "nasi-goreng.jpg",
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Mie Goreng",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg",
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Soto Ayam",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "soto.jpg",
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Bakso Sapi",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "bakso.jpg",
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Siomay",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "siomay.jpg",
+      "kategori": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Batagor",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "batagor.jpg",
+      "kategori": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Pangsit",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "pangsit.jpg",
+      "kategori": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Es Jeruk",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "jeruk.jpg",
+      "kategori": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Es Teh",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "teh.jpg",
+      "kategori": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Es Susu",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "susu.jpg",
+      "kategori": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Es Doger",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "doger.jpg",
+      "kategori": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_bayar": 21000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 16000,
+          "produk": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Soto Ayam",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "soto.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "produk": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Es Jeruk",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "jeruk.jpg",
+            "kategori": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 17000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 12000,
+          "produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Nasi Goreng",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "produk": {
+            "id": 8,
+            "kode": "K-08",
+            "nama": "Es Jeruk",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "jeruk.jpg",
+            "kategori": {
+              "id": 2,
+              "nama": "Minuman"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 12000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 12000,
+          "produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Nasi Goreng",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 18000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 8000,
+          "produk": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Soto Ayam",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "soto.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "produk": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Mie Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_bayar": 74000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 20000,
+          "produk": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Siomay",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "siomay.jpg",
+            "kategori": {
+              "id": 3,
+              "nama": "Cemilan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 4,
+          "total_harga": 32000,
+          "produk": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Soto Ayam",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "soto.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "micin yang banyak",
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "produk": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Mie Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 12000,
+          "produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Nasi Goreng",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 5
+    },
+    {
+      "total_bayar": 42000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total_harga": 24000,
+          "produk": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Nasi Goreng",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "keterangan": "tidak pedas",
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 10000,
+          "produk": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Mie Goreng",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 8000,
+          "produk": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Soto Ayam",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "soto.jpg",
+            "kategori": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
